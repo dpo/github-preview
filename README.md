@@ -9,7 +9,7 @@ less representative of the way Github will render, e.g., your README.md.
     [[ ! -d ~/bin ]] && mkdir ~/bin
     cp github-preview ~/bin/
     chmod +x ~/bin/github-preview
-    [[ ! -d !/bin/rc ]] && mkdir ~/bin/rc
+    [[ ! -d ~/bin/rc ]] && mkdir ~/bin/rc
     cp github-head.html github-foot.html ~/bin/rc
 
 If you are not under OSX, you may need to edit `github-preview` to replace the
