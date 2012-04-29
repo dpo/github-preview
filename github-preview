@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+# Need to: gem install redcarpet
+raise "gime a file!!" unless ARGV[0]
+exec "cat ~/bin/rc/github-head.html > /tmp/markdown.html && redcarpet #{ARGV[0]} >> /tmp/markdown.html && cat ~/bin/rc/github-foot.html >> /tmp/markdown.html && open /tmp/markdown.html"
