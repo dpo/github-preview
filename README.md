@@ -26,3 +26,7 @@ clone of this git repository and issue the command
 Clearly, I'm no web developer. I pieced this together from a few other sources.
 Most of the credit should go to them. However, it is with this script that I
 get the best results.
+
+# Licensing
+
+[![LGPL V3](http://www.gnu.org/graphics/lgplv3-88x31.png)](http://www.gnu.org/licenses/lgpl.html)
